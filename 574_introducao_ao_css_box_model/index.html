@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<!--  -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--  -->
+		<title>574. Introdução ao CSS Box-Model</title>
+
+		<!--  -->
+		<style>
+			* {
+                margin: 0;
+                padding: 0;
+				box-sizing: border-box;
+			}
+
+			.section_one {
+				width: 200px;
+				height: 150px;
+				margin: 20px;
+				padding: 15px;
+				border-width: 10px;
+				border-style: solid;
+				border-top-color: yellow;
+				border-right-color: blue;
+				border-bottom-color: firebrick;
+				border-left-color: green;
+				border-radius: 5px;
+
+				color: #d7bfbf;
+
+				background-color: deeppink;
+				background-image: url('https://images.pexels.com/photos/8444140/pexels-photo-8444140.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load');
+				background-size: cover;
+				background-position: center center;
+			}
+
+			.section_two {
+				width: 200px;
+				height: 50px;
+				margin: 20px;
+				padding: 15px;
+				border: 5px solid black;
+
+				background-color: cyan;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model -->
+
+		<!--  -->
+		<section class="section_one">
+			Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+		</section>
+
+		<!--  -->
+		<section class="section_two">2</section>
+	</body>
+</html>
