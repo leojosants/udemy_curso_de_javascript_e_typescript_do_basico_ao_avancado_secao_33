@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<!--  -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--  -->
+		<title>570. Tags HTML para texto (links, imagens, etc)</title>
+
+		<!--  -->
+		<style>
+            span {
+                color: red;
+            }
+
+			.ave_image {
+				width: 100px;
+				height: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--  -->
+		<h1>Título</h1>
+
+		<!--  -->
+		<h1>Título</h1>
+
+		<!--  tags inline -->
+		<p>
+			<b>Lorem</b> <strong>ipsum</strong> <i>dolor</i> <em>sit</em>
+
+			<a href="#" target="_blank" rel="external">amet</a>
+
+			<a href="https://www.pexels.com/pt-br/" target="_blank" rel="external">
+				<img
+					class="ave_image"
+					src="https://images.pexels.com/photos/15242361/pexels-photo-15242361/free-photo-of-animal-bicho-passaro-ave.png?auto=compress&cs=tinysrgb&w=800"
+					alt="Imagem de uma ave"
+				/>
+			</a>
+
+			<del>consectetur</del>, <ins>adipisicing</ins> <s>elit</s>.
+			<u>Quis</u> <small>non</small> quas 2<sup>x</sup>, H<sub>2</sub>O
+			mollitia nisi facilis ex, molestias sapiente expedita obcaecati
+			dignissimos sequi unde dolores beatae eum, adipisci <span>consequatur</span> eius.
+			<br />
+
+			<q cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+				>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção
+				mais básico da web. Define o significado e a estrutura do conteúdo
+				da web. Outras tecnologias além do HTML geralmente são usadas para
+				descrever a aparência/apresentação (CSS) ou a
+				funcionalidade/comportamento (JavaScript) de uma página da web.
+			</q>
+
+			<code>console.log()</code>
+		</p>
+
+		<!-- tags inblock -->
+		<blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+			HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais
+			básico da web. Define o significado e a estrutura do conteúdo da web.
+			Outras tecnologias além do HTML geralmente são usadas para descrever a
+			aparência/apresentação (CSS) ou a funcionalidade/comportamento
+			(JavaScript) de uma página da web.
+		</blockquote>
+
+		<!-- tags inblock -->
+		<hr />
+
+		<!-- tags inblock -->
+		<pre>
+            <code>
+                const person= {
+                    first_name: 'Leonardo';
+                    last_name: 'Santos';
+                    age: 39;
+                };
+    
+                console.log(person);
+                console.log(person.first_name);
+                console.log(person.last_name);
+                console.log(person.age);
+            </code>
+        </pre>
+
+        <!-- tags inblock -->
+        <div>div</div>
+	</body>
+</html>
