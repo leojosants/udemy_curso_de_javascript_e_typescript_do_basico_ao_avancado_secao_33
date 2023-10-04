@@ -1,0 +1,46 @@
+/* example 06 ::placeholder */
+::placeholder {
+    color: red;
+    font-size: 1rem;
+}
+
+/* example 05 ::selection 
+    p::selection {
+        background-color: red;
+        color: white;
+    }
+*/
+
+/* example 04 ::first-line 
+    p::first-line {
+        font-size: 50px;
+        display: block;
+        float: left;
+        margin: 0 10px 10px 0;
+    }
+*/
+
+/* example 03 ::first-letter 
+    p::first-letter {
+        font-size: 50px;
+        display: block;
+        float: left;
+        margin: 0 10px 10px 0;
+    }
+*/
+
+/* example 02 ::before 
+    ul li::before {
+        content: ' - ';
+        background-color: rgb(236, 151, 151);
+        display: block;
+    }
+*/
+
+/* example 01 ::after 
+    ul li::after {
+        content: ' - ';
+        background-color: rgb(236, 151, 151);
+        display: block;
+    }
+*/
