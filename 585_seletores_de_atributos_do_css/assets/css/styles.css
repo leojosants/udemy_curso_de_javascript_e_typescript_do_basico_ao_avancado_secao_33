@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* exampe 04 - contains */
+[my_attribute*='u'] {
+    color: red;
+}
+
+[checked] {
+    width: 50px;
+    height: 50px;
+}
+
+/* exampe 04 - ends with 
+    [my_attribute$='e'] {
+        color: red;
+    }
+
+    [checked] {
+        width: 50px;
+        height: 50px;
+    }
+*/
+
+/* exampe 03 - begins with 
+    [my_attribute^='v'] {
+        color: red;
+    }
+
+    [checked] {
+        width: 50px;
+        height: 50px;
+    }
+*/
+
+/* exampe 02 
+    [my_attribute|='value'] {
+        color: red;
+    }
+
+    [checked] {
+        width: 50px;
+        height: 50px;
+    }
+*/
+
+/* exampe 01 
+    [my_attribute~='value3'] {
+        color: red;
+    }
+
+    [checked] {
+        width: 50px;
+        height: 50px;
+    }
+*/
