@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<!--  -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--  -->
+		<title>578. Formulários e Inputs HTML - Parte 2</title>
+
+		<!--  -->
+		<style>
+			label {
+				cursor: pointer;
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Como estruturar um formulário HTML - https://developer.mozilla.org/pt-BR/docs/Learn/Forms/How_to_structure_a_web_form -->
+
+		<!-- HTML Input Types - https://www.w3schools.com/html/html_form_input_types.asp -->
+
+		<!--  -->
+		<form action="#" method="get" target="_blank" autocomplete="off">
+			<p>
+				<label for="name"> Nome: </label>
+				<input
+					type="text"
+					id="name"
+					name="name"
+					placeholder="Digite o nome..."
+				/>
+			</p>
+
+			<p>
+				<label for="checkbox_1"> Opção 1 </label>
+				<input
+					type="checkbox"
+					id="checkbox_1"
+					name="checkbox_1"
+					value="checkbox_1"
+					checked
+				/>
+
+				<label for="checkbox_2"> Opção 2 </label>
+				<input
+					type="checkbox"
+					id="checkbox_2"
+					name="checkbox_2"
+					value="checkbox_2"
+				/>
+
+				<label for="checkbox_3"> Opção 3 </label>
+				<input
+					type="checkbox"
+					id="checkbox_3"
+					name="checkbox_3"
+					value="checkbox_3"
+				/>
+			</p>
+
+			<p>
+				Gênero:
+				<label for="feminine">Feminino</label>
+				<input type="radio" id="feminine" name="gender" value="feminine" />
+
+				<label for="masculine">Masculino</label>
+				<input
+					type="radio"
+					id="masculine"
+					value="masculine"
+					name="gender"
+				/>
+
+				<label for="another_other">Outro ou Outra</label>
+				<input
+					type="radio"
+					id="another_other"
+					value="another_other"
+					name="gender"
+					checked
+				/>
+			</p>
+
+			<p>
+				<button type="submit">Enviar</button>
+				<button type="reset">Limpar</button>
+			</p>
+		</form>
+	</body>
+</html>
