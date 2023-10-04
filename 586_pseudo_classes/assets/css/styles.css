@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* example 09 - required */
+input:required {
+    background-color: rgb(85, 11, 11);
+}
+
+/* example 08 - last-child 
+    .father .list li:last-child {
+        background-color: red;
+    }
+*/
+
+/* example 07 - first-child 
+    .father .list li:first-child {
+        background-color: red;
+    }
+*/
+
+/* example 06 - checked 
+    input:checked + p {
+        background-color: red;
+    } 
+*/
+
+/* example 05 - disabled 
+    input:disabled {
+        background-color: rgb(240, 90, 90);
+        cursor: not-allowed;
+    }
+*/
+
+/* example 04 - focus 
+    input:focus {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        width: 50%;
+        height: 50%;
+        margin-top: 20px;
+    }
+*/
+
+/* example 03 - active 
+    a {
+        color: red;
+    }
+
+    a:active {
+        background-color: green;
+    }
+
+    a:hover {
+        text-decoration: none;
+        font-size: 20px;
+    }
+*/
+
+/* example 02 - link, visited
+    a {
+        color: red;
+    }
+
+    a:link {
+        color: green;
+    }
+
+    a:visited {
+        color: pink;
+    }
+
+    a:hover {
+        text-decoration: none;
+        font-size: 20px;
+    }
+*/
+
+/* example 01 - hover
+    .heading {
+        transition: all 1s ease-in-out;
+    }
+
+    .heading:hover {
+        background-color: red;
+    }
+*/
