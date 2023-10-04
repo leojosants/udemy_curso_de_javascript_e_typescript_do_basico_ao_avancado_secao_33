@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* example 05 - nth-child() */
+ul li:nth-child(3n+5) {
+    background-color: red;
+}
+
+/* example 04 - nth-child() 
+    ul li:nth-child(3n) {
+        background-color: red;
+        
+    }
+*/
+
+/* example 03 - nth-child() 
+    ul li:nth-child(odd) {
+        background-color: red;
+    }
+*/
+
+/* example 02 - nth-child() 
+    ul li:nth-child(even) {
+        background-color: red;
+    }
+*/
+
+/* example 01 - nth-child() 
+    ul li:nth-child(2) {
+        background-color: red;
+    }
+*/
