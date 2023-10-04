@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* example 04 */
+[checked] {
+    width: 50px;
+    height: 50px;
+}
+
+/* example 03 
+[my_attribute='value'] {
+    color: red;
+}
+*/
+
+/* example 02.1 - general sibling selector 
+.father .one ~ .two {
+    color: red;
+}
+*/
+
+/* example 02 - general sibling selector 
+.father h1 ~ p {
+    color: red;
+}
+*/
+
+/* example 01 - adjacent sibling selector 
+.father h1 + p {
+    color: red;
+}
+
+.father p + h1 {
+    color: green;
+}
+*/
