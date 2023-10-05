@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* example 07 */
+.grid {
+    padding: 15px;
+}
+
+.grid::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid .col {
+    width: 33.33%;
+    height: 300px;
+    float: left;
+    padding: 15px;
+}
+
+.grid .col_content {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: red;
+}
+
+/* example 06 
+    .grid::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .grid .col {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        margin: 20px;
+        float: left;
+    }
+*/
+
+/* example 05 
+    .grid .col {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        margin: 20px;
+        float: left;
+    }
+
+    p {
+        clear: both;
+    }
+*/
+
+/* example 04 
+    .grid .col {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        margin: 20px;
+        float: right;
+    }
+
+    p {
+        clear: right;
+    }
+*/
+
+/* example 03 
+    .grid .col {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        margin: 20px;
+        float: left;
+    }
+
+    p {
+        clear: left;
+    }
+*/
+
+/* example 02 
+    .grid .col {
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        margin: 30px;
+    }
+*/
+
+/* example 01 
+    .grid .col {
+        display: block;
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        margin: 30px;
+    }
+*/
