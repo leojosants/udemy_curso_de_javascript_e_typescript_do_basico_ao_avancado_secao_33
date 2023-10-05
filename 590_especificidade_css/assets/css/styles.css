@@ -1,0 +1,32 @@
+/* 
+    style   ids /   class, attribute e pseudo-class /   elements e pseudo-elements
+    0        0       0                                   0   
+*/
+
+body#body_id.body_class p#paragraph.paragraph {
+    background-color: purple;
+}
+
+/* Selector Specificity: (1, 0, 0) */
+#paragraph { 
+    background-color: red;
+}
+
+p {
+    background-color: blue !important;
+}
+
+/* Selector Specificity: (0, 1, 0) */
+.paragraph { 
+    background-color: yellow;
+}
+
+/* Selector Specificity: (1, 1, 0) */
+#paragraph.paragraph { 
+    background-color: yellow;
+}
+
+/* Selector Specificity: (1, 1, 1) */
+p#paragraph.paragraph { 
+    background-color: red;
+}
