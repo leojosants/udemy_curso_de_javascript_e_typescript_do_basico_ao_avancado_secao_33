@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* example 04 */
+.container {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: rgba(4, 3, 8, 0.7);
+}
+
+/* example 03 
+    .container {
+        width: 300px;
+        height: 300px;
+        margin: 50px auto;
+        background-color: #F00;
+    }
+*/
+
+/* example 02 
+    .container {
+        width: 300px;
+        height: 300px;
+        margin: 50px auto;
+        background-color: #000000;
+    }
+*/
+
+/* example 01 
+    .container {
+        width: 300px;
+        height: 300px;
+        margin: 50px auto;
+        background-color: #FFFFFF;
+    }
+*/
