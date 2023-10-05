@@ -1,0 +1,145 @@
+/* example 07 - vmax */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.father {
+    width: 50rem;
+    height: 100vh;
+    background-color: red;
+}
+
+.father > div {
+    width: 50%;
+    height: 50rem;
+    background-color: blue;
+}
+
+p {
+    font-size: 2vmax;
+}
+
+.color_one {
+    background-color: aqua;
+}
+
+.color_two {
+    background-color: brown;
+}
+
+/* example 06 - %
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.father {
+    width: 50rem;
+    height: 100vh;
+    background-color: red;
+}
+
+.father > div {
+    width: 50%;
+    height: 50rem;
+    background-color: blue;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.color_one {
+    background-color: aqua;
+}
+
+.color_two {
+    background-color: brown;
+}
+*/
+
+/* example 05 - vh 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+    }
+
+    .father {
+        width: 100vw;
+        height: 100vh;
+        background-color: red;
+    }
+
+    p {
+        font-size: 1.6rem;
+    }
+
+    .color_one {
+        background-color: aqua;
+    }
+
+    .color_two {
+        background-color: brown;
+    }
+*/
+
+/* example 04 - rem / px 
+    html {
+        font-size: 62.5%;
+    }
+
+    .father {
+        width: 30rem;
+        height: 30rem;
+        background-color: red;
+    }
+
+    p {
+        font-size: 1.6rem;
+    }
+*/
+
+/* example 03 - rem 
+    html {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+*/
+
+/* example 02 - em 
+    .father {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 0.5em;
+    }
+*/
+
+/* example 01 - px 
+    p {
+        font-size: 20px;
+    }
+*/
